@@ -1,0 +1,24 @@
+# banco de dados
+
+name = str(input('Digite o seu nome: '))
+user = str(input('Digite o seu Usuário: '))
+password = str(input('Digite a sua Senha: '))
+
+#
+usuario1 = '1'
+usuario2 = '2'
+usuario3 = '3'
+#
+if user == 'thiisp' and password == 'thiago':
+    print('Olá, {}! Seja bem vindo! Você é o {}° Usuário do aplicativo :)'
+          .format(name.capitalize(), usuario1))
+elif user == 'jhow' and password == 'jhow123':
+    print('Olá, {}! Seja bem vindo! Você é o {}° Usuário do aplicativo :)'
+          .format(name.capitalize(), usuario2))
+elif user == 'lucas' and password == 'lukinhas':
+    print('Olá, {}! Seja bem vindo! Você é o {}° Usuário do aplicativo :)'
+          .format(name.capitalize(), usuario3))
+else:
+    print('Usuário ou senha incorreto!')
+
+# Instagram: @thiisp
